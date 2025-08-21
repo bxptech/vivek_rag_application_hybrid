@@ -12,7 +12,7 @@ def rag_query(query_text, embed_func, index, chunks):
     query_vec = embed_func(query_text)
     
     # Retrieve relevant chunks
-    retrieved = search(query_vec, index, chunks, top_k=5)
+    retrieved = search(query_vec, index, chunks, top_k=20)
     context = "\n".join([r[0] for r in retrieved])
 
     # Build RAG prompt

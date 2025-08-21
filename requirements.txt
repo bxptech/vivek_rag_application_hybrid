@@ -1,8 +1,33 @@
-ffmpeg-python
-numpy
+# ffmpeg-python
+# numpy
+# python-dotenv
+# sarvamai
+# faiss-cpu
+# sentence-transformers
+# transformers
+# google-generativeai
+# Core
 python-dotenv
-sarvamai
-faiss-cpu
-sentence-transformers
-transformers
+numpy
+streamlit
+asyncio
+
+# LangChain + Google GenAI
+langchain
+langchain-community
+langchain-google-genai
 google-generativeai
+
+# Document loaders
+pypdf
+unstructured
+openpyxl
+
+# Vector DB
+faiss-cpu
+
+# Audio/Video
+ffmpeg-python
+sarvamai
+deep-translator
+googletrans==4.0.0-rc1
