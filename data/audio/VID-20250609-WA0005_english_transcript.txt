@@ -3,5 +3,5 @@ If the bank is selected, the group takes under -automatic.
 Enter and click on the above address. If the party is a GST dealer, select the GST check box and enter the GST number. Or if the party is composite un registered, select the check box and select the state name near the state and click on the Multiple GST numbers and click on the Multiple GST numbers and click on the save button.
 Clicked.
 Click on. 
-Same Details should be clicked on the Fine button for another party, a customer or supplier, select the party and click the okay button. 
+Same Details should be clicked on the Fine button for another party ie customer or supplier. 
 You need to click the F7 Save Ass button to change the details of the GST number and address.

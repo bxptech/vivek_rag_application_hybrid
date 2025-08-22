@@ -1,7 +1,14 @@
 import os
+import asyncio
 import numpy as np
 from dotenv import load_dotenv
 from langchain_google_genai import GoogleGenerativeAIEmbeddings
+
+# --- Ensure event loop exists (fix for Python 3.13 + Streamlit threads) ---
+try:
+    asyncio.get_event_loop()
+except RuntimeError:
+    asyncio.set_event_loop(asyncio.new_event_loop())
 
 load_dotenv()
 
