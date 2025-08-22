@@ -1,0 +1,20 @@
+[server]
+# Ensures the app works properly with async (Python 3.13+)
+headless = true
+enableCORS = false
+enableXsrfProtection = false
+port = 8501
+
+[logger]
+# Control log level (debug/info/warning/error)
+level = "info"
+
+[client]
+# Prevents Streamlit UI crashes
+showErrorDetails = true
+toolbarMode = "minimal"
+
+[runner]
+# Avoids event loop errors in asyncio
+fastReruns = true
+
