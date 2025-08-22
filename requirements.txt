@@ -1,33 +1,28 @@
-# ffmpeg-python
-# numpy
-# python-dotenv
-# sarvamai
-# faiss-cpu
-# sentence-transformers
-# transformers
-# google-generativeai
-# Core
-python-dotenv
-numpy
-streamlit
-asyncio
+# ----------------------------
+# Python 3.13.5 Compatible Requirements
+# For vivek_rag_application_hybrid
+# ----------------------------
 
-# LangChain + Google GenAI
-langchain
-langchain-community
-langchain-google-genai
-google-generativeai
+# Core utilities
+python-dotenv==1.0.1
+tqdm==4.66.5
+numpy==1.26.4
 
-# Document loaders
-pypdf
-unstructured
-openpyxl
+# LangChain ecosystem
+langchain==0.1.20
+langchain-community==0.0.38
+langchain-google-genai==0.0.11
+faiss-cpu==1.7.4
 
-# Vector DB
-faiss-cpu
+# Pydantic v1 (needed to load FAISS indexes correctly)
+pydantic==1.10.15
 
-# Audio/Video
-ffmpeg-python
-sarvamai
-deep-translator
-googletrans==4.0.0-rc1
+# Google Generative AI client
+google-generativeai==0.8.3
+
+# Streamlit UI
+streamlit==1.38.0
+rich==13.9.4        # must be <14 for Streamlit
+pygments==2.18.0
+markdown-it-py==3.0.0
+mdurl==0.1.2
