@@ -1,28 +1,30 @@
-# ----------------------------
-# Python 3.13.5 Compatible Requirements
-# For vivek_rag_application_hybrid
-# ----------------------------
-
-# Core utilities
-python-dotenv==1.0.1
-tqdm==4.66.5
-numpy==1.26.4
-
-# LangChain ecosystem
-langchain==0.1.20
-langchain-community==0.0.38
-langchain-google-genai==0.0.11
-faiss-cpu==1.7.4
-
-# Pydantic v1 (needed to load FAISS indexes correctly)
-pydantic==1.10.15
-
-# Google Generative AI client
-google-generativeai==0.8.3
-
-# Streamlit UI
+# Core
 streamlit==1.38.0
-rich==13.9.4        # must be <14 for Streamlit
-pygments==2.18.0
+python-dotenv==1.0.1
+
+# LangChain & Google GenAI
+langchain==0.2.16
+langchain-community==0.2.16
+langchain-google-genai==1.0.7
+faiss-cpu==1.8.0.post1
+
+# Google + API clients
+google-generativeai==0.7.2
+google-auth==2.35.0
+google-auth-oauthlib==1.2.1
+google-api-python-client==2.147.0
+
+# Embeddings & ML
+numpy==1.26.4
+scikit-learn==1.5.1
+
+# Utils
+tqdm==4.66.5
+requests==2.32.3
+urllib3==2.2.3
+
+# Rich logging (streamlit requires <14)
+rich==13.9.4
 markdown-it-py==3.0.0
+pygments==2.18.0
 mdurl==0.1.2
