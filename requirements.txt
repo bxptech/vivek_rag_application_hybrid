@@ -1,3 +1,4 @@
+# Core
 streamlit==1.38.0
 langchain==0.2.12
 langchain-community==0.2.11
@@ -6,13 +7,26 @@ faiss-cpu==1.8.0.post1
 tiktoken==0.7.0
 openai==1.37.0
 pydantic==2.8.2
+
+# Data
 numpy==1.26.4
 pandas==2.2.2
+
+# ML / Stats
 scikit-learn==1.5.1
 scipy==1.14.0
+
+# Utils
 requests==2.32.3
 python-dotenv==1.0.1
-rich==13.9.4   # ✅ Fix: compatible with Streamlit
+
+# Logging / UI
+rich==13.9.4       # ✅ compatible with streamlit
 pygments==2.19.1
 markdown-it-py==3.0.0
 mdurl==0.1.2
+
+# Build tools (prevents pyproject.toml stalls)
+setuptools==72.1.0
+wheel==0.44.0
+cython==3.0.11
