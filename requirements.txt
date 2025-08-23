@@ -25,7 +25,7 @@ tqdm==4.66.5
 requests==2.32.3
 urllib3==2.2.3
 
-# Rich logging (streamlit requires <14)
+# Rich logging (pin <14 for Streamlit compatibility)
 rich==13.9.4
 markdown-it-py==3.0.0
 pygments==2.18.0
