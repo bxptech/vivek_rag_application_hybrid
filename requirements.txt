@@ -1,32 +1,18 @@
---only-binary=:all:
-
-# Core
 streamlit==1.38.0
-python-dotenv==1.0.1
-
-# LangChain & Google GenAI
-langchain==0.2.16
-langchain-community==0.2.16
-langchain-google-genai==1.0.7
-faiss-cpu==1.8.0
-
-# Google + API clients
-google-generativeai==0.7.2
-google-auth==2.35.0
-google-auth-oauthlib==1.2.1
-google-api-python-client==2.147.0
-
-# Embeddings & ML
+langchain==0.2.12
+langchain-community==0.2.11
+langchain-core==0.2.23
+faiss-cpu==1.8.0.post1
+tiktoken==0.7.0
+openai==1.37.0
+pydantic==2.8.2
 numpy==1.26.4
-scikit-learn==1.5.0
-
-# Utils
-tqdm==4.66.5
+pandas==2.2.2
+scikit-learn==1.5.1
+scipy==1.14.0
 requests==2.32.3
-urllib3==2.2.3
-
-# Rich logging (pin <14 for Streamlit compatibility)
-rich==13.9.4
+python-dotenv==1.0.1
+rich==13.9.4   # ✅ Fix: compatible with Streamlit
+pygments==2.19.1
 markdown-it-py==3.0.0
-pygments==2.18.0
 mdurl==0.1.2
