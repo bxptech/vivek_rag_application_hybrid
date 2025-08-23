@@ -6,7 +6,7 @@ python-dotenv==1.0.1
 langchain==0.2.16
 langchain-community==0.2.16
 langchain-google-genai==1.0.7
-faiss-cpu==1.8.0.post1
+faiss-cpu==1.8.0
 
 # Google + API clients
 google-generativeai==0.7.2
