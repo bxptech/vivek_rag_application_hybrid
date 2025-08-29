@@ -16,6 +16,10 @@ scipy
 requests
 python-dotenv
 
+langchain
+langchain-community
+langchain-google-genai
+google-generativeai
 # Logging / UI
 rich
 pygments
