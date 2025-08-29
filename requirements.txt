@@ -8,7 +8,7 @@ pydantic
 # Data
 numpy
 pandas
-FAISS-cpu
+faiss-cpu
 # ML / Stats
 scikit-learn
 scipy
