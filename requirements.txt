@@ -1,27 +1,26 @@
 # Core
-streamlit==1.38.0
-langchain==0.2.12
-tiktoken==0.7.0
-openai==1.37.0
-pydantic==2.8.2
+streamlit
+langchain
+tiktoken
+openai
+pydantic
 
 # Data
-numpy==1.26.4
-pandas==2.2.2
+numpy
+pandas
 
 # ML / Stats
-scikit-learn==1.5.1
-scipy==1.14.0
-
+scikit-learn
+scipy
 # Utils
-requests==2.32.3
-python-dotenv==1.0.1
+requests
+python-dotenv
 
 # Logging / UI
-rich==13.9.4
-pygments==2.19.1
-markdown-it-py==3.0.0
-mdurl==0.1.2
+rich
+pygments
+markdown-it-py
+mdurl
 
 # Vectorstore (faiss not yet available for Python 3.13 → use chromadb)
 chromadb
